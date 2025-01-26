@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
+.ff{
+    font-family: "Quicksand";
+}
 /* Nav bar design */
 .nav-bar{
     font-family: "Quicksand";
@@ -117,21 +119,164 @@
     height: 50px;
     padding:10px 47px;
     font-family: "Quicksand";
-    font-size: 20px;
+    font-size: 0.8rem;
     margin-top: 24px;
     
 }
+/* school details  part 2*/
+.title2{
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 46px;
+    padding: 60px 489px 80px 489px;
+}
 
-@media screen and(max-width: 390px)
-{
+
+
+
+.part-2{
+    background-image: url(./assets/bg.png);
+    width: 1536px;
+    
+}
+
+.parent-box{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:28px;
+    padding: 197.5px 140px 200px 140px;
+
+}
+
+.box1{
+    background-color: white;
+    box-shadow: inset 0px 0px 50px  #DEF5FF ;
+    border-radius: 18.8px;
+    border: #DEF5FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box2{
+    background-color: white;
+    box-shadow: inset 0px 0px 50px #FFF4DC;
+    border-radius: 18.8px;
+    border:  #FFF4DC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box3{
+    background-color: white;
+    box-shadow:inset 0px 0px 50px #F2E8FF;
+    border-radius: 18.8px;
+    border:  #F2E8FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img1{
+   padding-left: 115.5px;
+   padding-right: 115.5px;
+   padding-top: 52.8px;
+}
+
+.img2{
+    padding-left: 113.5px;
+   padding-right: 113.5px;
+   padding-top: 52.8px;
+   width: 141.48px;
+   
+}
+.title2-1{
+    font-size: 24.8px;
+    font-weight: bold;
+    padding-left: 78.57px;
+    padding-right: 78.18px;
+    padding-top: 32.07px;
+}
+
+.title2-2{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 68.31px;
+    padding-right: 67.9px;
+    padding-top: 32.07px;
+}
+.box-para{
+    font-weight: 400px;
+    font-size: 15.09px;
+    padding-left: 40.88px;
+    padding-right: 40.67px;
+}
+.l1{
+    text-decoration: none;
+    list-style: none;
+    color: #64C8FF;
+    font-weight: bold;
+    font-size: 15.09px;
+    padding-left: 132px;
+    padding-right: 155.69px;
+    padding-bottom: 58.58px;
+    padding-top: 38.67px;
+}
+.l2{
+    text-decoration: none;
+    list-style: none;
+    color: #F0AA00;
+    font-weight: bold;
+    font-size: 15.09px;
+    padding-left: 132px;
+    padding-right: 155.69px;
+    padding-bottom: 58.58px;
+    padding-top: 38.67px;  
+}
+.l3{
+    text-decoration: none;
+    list-style: none;
+    color: #8700FF;
+    font-weight: bold;
+    font-size: 15.09px;
+    padding-left: 132px;
+    padding-right: 155.69px;
+    padding-bottom: 58.58px;
+    padding-top: 38.67px;  
+}
+@media screen and (max-width: 430px){
     .nav-bar{
-        display: flex;
+        flex-direction: row;
+        padding: 12px 16px;
     }
-
-    .link{
+    .school{
+        display: none;
+    }
+    .link > a{
         display: none;
     }
     .btn-1{
         display: none;
+    }
+
+    .main-div{
+
+        width:100%;
+        flex-wrap: wrap-reverse;
+        margin: 8px 17px 40px 16px;
+        width: 357px;
+    }
+    .btn-2{
+        margin-left: 137px;
+        margin-right: 137px;
+        margin-top: 24px;
+    }
+    .banner-para{
+        font-family:"Quicksand";
+        font-size:20px;
+        font-weight: 400px;
+        margin-top: 144px;
+        width: 100%;
+        height: 50%;
     }
 }
