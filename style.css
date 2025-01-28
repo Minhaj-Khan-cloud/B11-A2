@@ -269,20 +269,42 @@
     font-family: "Quicksand";
     width: 1440px;
     background-image: url("./assets/bg.png");
+    padding: 197.5px 140px 200px 140px;
+
+                          justify-content: center;
+                          align-items: center;
+                          position: relative;
+
 }
-.stories>h2{
+
+.stories-h2{
+    font-family: "Quicksand";
+    font-weight: bold;
     padding-left: 489px;
     padding-right: 489px;
     font-weight: bold;
     font-size: 46px;
+ text-align: center;
+    
+}
+.stories-h4{
+    font-family: "Quicksand";
+    font-weight: bold;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-weight: bold;
 }
 .div0{
     width: 1160px;
     padding-left: 140px;
     padding-right: 140px;
-    display: grid;
+    /* display: grid;
     grid-template-areas: "div0 div0 div1 div2"
-                          "div0 div0 div3 div4";
+                          "div0 div0 div3 div4"; */
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          gap:16px;
 
    column-gap: 19px;
 }
@@ -299,14 +321,32 @@
     width: 540px;
     height: 630px;
 }
+
+.story1-p{
+    font-family: "Quicksand";
+    font-weight: 400px;
+    font-size: 15px;
+    padding:24px 68px 34px 68px;
+    padding-bottom: 34px;
+    
+}
 .div2,.div3,.div4,.div5{
     border-radius: 16px;
     border: none;
     background-color: white;
     width: 290px;
 }
+.story-1{
+    width: 540px;
+    height: 377px;
+    border-radius: 16px;
+}
 
-
+.story-2,.story-3,.story-4,.story-5{
+    border-radius: 16px;
+    width:291px;
+    height: 177px;
+}
 
 
 
