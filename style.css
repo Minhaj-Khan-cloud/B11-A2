@@ -124,11 +124,14 @@
     
 }
 /* school details  part 2*/
-.title2{
+ .title-2{
     font-family: "Quicksand";
     font-weight: bold;
     font-size: 46px;
-    padding: 60px 489px 80px 489px;
+    padding-left: 486px;
+    padding-right: 489px;
+    padding-top: 30px;
+    text-align: center;
 }
 
 
@@ -136,8 +139,7 @@
 
 .part-2{
     background-image: url(./assets/bg.png);
-    width: 1536px;
-    
+      
 }
 
 .parent-box{
@@ -157,6 +159,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 367.8px;
 }
 .box2{
     background-color: white;
@@ -166,6 +169,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 367.8px;
 }
 .box3{
     background-color: white;
@@ -175,19 +179,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 367.8px;
 }
 
 .img1{
    padding-left: 115.5px;
    padding-right: 115.5px;
    padding-top: 52.8px;
+   width: 136.7px;
 }
 
 .img2{
     padding-left: 113.5px;
    padding-right: 113.5px;
    padding-top: 52.8px;
-   width: 141.48px;
+   width: 137.48px;
+   
    
 }
 .title2-1{
@@ -243,11 +250,83 @@
     padding-right: 155.69px;
     padding-bottom: 58.58px;
     padding-top: 38.67px;  
+} 
+.mainbox{
+    background-image: url("./assets/bg.png");
+
+
 }
-@media screen and (max-width: 430px){
+ .heading{
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    padding: 40px 15px;
+ }
+
+/* Stories part design */
+.stories{
+    font-family: "Quicksand";
+    width: 1440px;
+    background-image: url("./assets/bg.png");
+}
+.stories>h2{
+    padding-left: 489px;
+    padding-right: 489px;
+    font-weight: bold;
+    font-size: 46px;
+}
+.div0{
+    width: 1160px;
+    padding-left: 140px;
+    padding-right: 140px;
+    display: grid;
+    grid-template-areas: "div0 div0 div1 div2"
+                          "div0 div0 div3 div4";
+
+   column-gap: 19px;
+}
+.divm{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 19px;
+    row-gap: 19.39px;
+}
+.div1{
+    border-radius: 16px;
+    border: none;
+    background-color: white;
+    width: 540px;
+    height: 630px;
+}
+.div2,.div3,.div4,.div5{
+    border-radius: 16px;
+    border: none;
+    background-color: white;
+    width: 290px;
+}
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 430px){
     .nav-bar{
         flex-direction: row;
         padding: 12px 16px;
+    }
+    .title{
+        font-family: "Quicksand";
+        font-size: 14px;
+    }
+    .secondary-div1{
+        width: 357px;
+    }
+    .hero-img{
+        width: 336px;
     }
     .school{
         display: none;
@@ -260,11 +339,10 @@
     }
 
     .main-div{
-
-        width:100%;
+        width:357px;
         flex-wrap: wrap-reverse;
-        margin: 8px 17px 40px 16px;
-        width: 357px;
+        margin: 0px;
+        justify-content: left;
     }
     .btn-2{
         margin-left: 137px;
@@ -273,10 +351,18 @@
     }
     .banner-para{
         font-family:"Quicksand";
-        font-size:20px;
+        font-size:32px;
         font-weight: 400px;
         margin-top: 144px;
         width: 100%;
         height: 50%;
     }
-}
+    .part-2,.parent-box{
+
+        flex-direction: column;
+        
+    }
+} 
+
+
+
