@@ -267,8 +267,9 @@
 /* Stories part design */
 .stories{
     font-family: "Quicksand";
-    width: 1440px;
+    width: 100%;
     background-image: url("./assets/bg.png");
+    background: linear-gradient(#FEA301);
     padding: 197.5px 140px 200px 140px;
 
                           justify-content: center;
@@ -277,6 +278,62 @@
 
 }
 
+.b1{
+    background-color: #3CD8E8;
+    font-family: "Quicksand";
+    font-size: 15.32px;
+    border-radius: 47.93px;
+    margin-left: 38.35px;
+    margin-right: 327px;
+    width: 174px;
+    height: 47.93px;
+    border: none;
+ }
+ .b2{
+    background-color: #95B226;
+    font-family: "Quicksand";
+    font-size: 15.32px;
+    border-radius: 47.93px;
+    margin-left: 38.35px;
+    margin-right: 78px;
+    width: 174px;
+    height: 47.93px;
+    border: none;
+ }
+ .b3{
+    background-color:  #5D58F0;
+    font-family: "Quicksand";
+    font-size: 15.32px;
+    border-radius: 47.93px;
+    margin-left: 38.35px;
+    margin-right: 78px;
+    width: 174px;
+    height: 47.93px;
+    border: none;
+ }
+ .b4{
+    background-color: #95B226;
+    
+    font-family: "Quicksand";
+    font-size: 15.32px;
+    border-radius: 47.93px;
+    margin-left: 38.35px;
+    margin-right: 78px;
+    width: 174px;
+    height: 47.93px;
+    border: none;
+ }
+ .b5{
+    background-color: #95B226;
+    font-family: "Quicksand";
+    font-size: 15.32px;
+    border-radius: 47.93px;
+    margin-left: 38.35px;
+    margin-right: 78px;
+    width: 174px;
+    height: 47.93px;
+    border: none;
+ }
 .stories-h2{
     font-family: "Quicksand";
     font-weight: bold;
@@ -298,13 +355,13 @@
     width: 1160px;
     padding-left: 140px;
     padding-right: 140px;
-    /* display: grid;
+     display: grid;
     grid-template-areas: "div0 div0 div1 div2"
-                          "div0 div0 div3 div4"; */
-                          display: flex;
-                          justify-content: center;
-                          align-items: center;
-                          gap:16px;
+                          "div0 div0 div3 div4";
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+    gap:16px;
 
    column-gap: 19px;
 }
@@ -348,6 +405,19 @@
     height: 177px;
 }
 
+.btn111{
+    background-color: black;
+    font-family: "Quicksand";
+    font-weight: Bold;
+    border: none;
+    border-radius: 12px;
+    color: White;
+    font-size: 20px;
+    width: 197px;
+   height: 50px;
+   margin-top: 80px;
+   margin-bottom: 60px;
+}
 /* footer design */
 
 .footer{
@@ -366,7 +436,10 @@
     gap: 170px 143px;
     width: 1070px;
     height: 222px;
-    padding: 123PX 228PX 174px 140px;
+    padding-left: 139px;
+    padding-right: 229px;
+    padding-top: 127px;
+    padding-bottom: 174px;
 }
 
 .h{
@@ -382,7 +455,7 @@
     padding-bottom: 12px;
 }
 
-.f2a2{
+.f2{
     display: grid;
     grid-template-rows: repeat(1,1fr);
     row-gap: 20px;
@@ -403,11 +476,15 @@
     align-items: center;
 }
 
+
+
+
 .f3h3{
   font-family: "Quicksand";
   font-weight: Bold;
   color: white;
   width: 177px;
+  height: 26px;
   font-size: 26px;
   
 }
@@ -415,14 +492,18 @@
     display: grid;
     grid-template-rows: repeat(1,1fr);
     row-gap: 32px;
+
 }
 
 .i{
     width: 40px;
-    gap: 10px;
+
 }
 
-
+.imgbox{
+    display: flex;
+    gap: 10px;
+}
 
 
 .footer-logo{
@@ -439,7 +520,7 @@
 
 
 
- @media screen and (max-width: 430px){
+ @media screen and (max-width: 576px){
     .nav-bar{
         flex-direction: row;
         padding: 12px 16px;
@@ -487,6 +568,12 @@
 
         flex-direction: column;
         
+    }
+
+
+    .f1{
+        display: flex;
+        flex-direction: column;
     }
 } 
 
